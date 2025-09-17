@@ -2,7 +2,7 @@
 name = "chamfer-borders-fix"
 authors = ["revo"]
 commit_pins = [
-    ["46174f78b374b6cea669c48880877a8bdcf7802f", "e2ff598f207d40546148a2d0cfc27a6b358d40e2"], # 0.51.0
+    ["46174f78b374b6cea669c48880877a8bdcf7802f", "46f91a27696e9824e3db1440847b5c8634ce3d72"], # 0.51.0
 ]
 
 [chamfer-borders-fix]
