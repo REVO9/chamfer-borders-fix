@@ -76,7 +76,7 @@ static std::string patchShaderBorder() {
     std::regex re(R"(pixCoordOuter \-= fullSize \* 0.5 \- radiusOuter;)");
     shader = std::regex_replace(
         shader, re,
-        "pixCoordOuter -= fullSize * 0.5 - radius + thick * 0.707 * 0.25;");
+        "pixCoordOuter -= fullSize * 0.5 - radius + thick * (0.707 - 0.5);");
 
     return shader;
 }
