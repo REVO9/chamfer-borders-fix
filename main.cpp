@@ -158,11 +158,7 @@ APICALL EXPORT PLUGIN_DESCRIPTION_INFO PLUGIN_INIT(HANDLE handle) {
 
     g_pHyprOpenGL->initShaders();
 
-    HyprlandAPI::addNotification(PHANDLE,
-                                 "[chamfer-borders] Initialized successfully!",
-                                 CHyprColor{0.2, 1.0, 0.2, 1.0}, 5000);
-
-    return {"chamfer-borders", "Adds chamfer borders", "revo", "0.1"};
+    return {"chamfer-borders-fix", "fixes chamfered borders", "revo", "0.1"};
 }
 
 APICALL EXPORT void PLUGIN_EXIT() {

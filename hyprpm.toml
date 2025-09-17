@@ -1,0 +1,14 @@
+[repository]
+name = "chamfer-borders-fix"
+authors = ["revo"]
+# commit_pins = [
+#     ["46174f78b374b6cea669c48880877a8bdcf7802f", "efee74a7404495dbda70205824d6e9fc923ccdae"],
+# ]
+
+[chamfer-borders-fix]
+description = "A hyprland plugin that fixes the border width at chamfers (rounding_power=1) so it looks less hideous"
+authors = ["revo"]
+output = "chamfer-borders-fix.so"
+build = [
+    "make all"
+]
