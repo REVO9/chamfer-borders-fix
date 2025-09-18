@@ -3,6 +3,7 @@ name = "chamfer-borders-fix"
 authors = ["revo"]
 commit_pins = [
     ["46174f78b374b6cea669c48880877a8bdcf7802f", "46f91a27696e9824e3db1440847b5c8634ce3d72"], # 0.51.0
+    ["afd1e71761ce4cb71bb3316dc5e4a7cc81235e7a", "828635d49965e3d24a911091620139bdd3606b9b"], # the commit that fixes everything
 ]
 
 [chamfer-borders-fix]
