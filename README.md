@@ -1,6 +1,6 @@
+# ⚠️ As of hyprland 0.51.1 this plugin is no longer needed yippieee >w<
+
 A hyprland plugin that fixes the border width at chamfers (rounding_power=1) so it looks less hideous
-
-
 
 # Installing
 
